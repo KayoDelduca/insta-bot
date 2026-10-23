@@ -3,8 +3,8 @@
   "schedule": "6 reels/dia — 10:00, 12:30, 15:00, 17:30, 20:00, 22:30",
   "stories": true,
   "start_date": "2026-10-23",
-  "end_date": "2026-10-29",
-  "total_posts": 42,
+  "end_date": "2026-10-30",
+  "total_posts": 84,
   "posts": [
     {
       "id": "b-d1-01",
@@ -93,6 +93,17 @@
       "status": "pending"
     },
     {
+      "id": "a-d1-01",
+      "account": "a",
+      "date": "2026-10-24",
+      "time": "10:00",
+      "type": "reel",
+      "caption": "Treino bom começa no look certo 💪🔥\n\n🛍️ Compre em veraneiafit.com\n\n#modafitness #roupafitness #legging #academia #treino",
+      "media": "content-a/reel-01.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792120/cliente-a/a-d1-01.mp4"
+    },
+    {
       "id": "b-d2-07",
       "account": "b",
       "date": "2026-10-24",
@@ -102,6 +113,17 @@
       "media": "content-b/reel-07.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d2-07.mp4",
       "status": "pending"
+    },
+    {
+      "id": "a-d1-02",
+      "account": "a",
+      "date": "2026-10-24",
+      "time": "12:30",
+      "type": "reel",
+      "caption": "Conforto pra treinar, estilo pra sair da academia direto pro dia 🖤\n\n👉 Garanta o seu em veraneiafit.com\n\n#modafitness #conjuntofitness #fitnessgirl #treinoemcasa #lookfitness",
+      "media": "content-a/reel-02.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792122/cliente-a/a-d1-02.mp4"
     },
     {
       "id": "b-d2-08",
@@ -115,6 +137,17 @@
       "status": "pending"
     },
     {
+      "id": "a-d1-03",
+      "account": "a",
+      "date": "2026-10-24",
+      "time": "15:00",
+      "type": "reel",
+      "caption": "Legging que não fica transparente no agachamento? Temos ✅🏋️‍♀️\n\n✨ Disponível em veraneiafit.com\n\n#roupadeacademia #modafitness #crossfit #motivacao #fitness",
+      "media": "content-a/reel-03.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792124/cliente-a/a-d1-03.mp4"
+    },
+    {
       "id": "b-d2-09",
       "account": "b",
       "date": "2026-10-24",
@@ -124,6 +157,17 @@
       "media": "content-b/reel-09.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d2-09.mp4",
       "status": "pending"
+    },
+    {
+      "id": "a-d1-04",
+      "account": "a",
+      "date": "2026-10-24",
+      "time": "17:30",
+      "type": "reel",
+      "caption": "Seu treino merece um conjunto à altura ✨\n\n📦 Enviamos para todo o Brasil: veraneiafit.com\n\n#modafitness #topfitness #leggingfitness #academia #veraneiafit",
+      "media": "content-a/reel-04.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792125/cliente-a/a-d1-04.mp4"
     },
     {
       "id": "b-d2-10",
@@ -137,6 +181,17 @@
       "status": "pending"
     },
     {
+      "id": "a-d1-05",
+      "account": "a",
+      "date": "2026-10-24",
+      "time": "20:00",
+      "type": "reel",
+      "caption": "Do aquecimento ao último set, sem precisar ajustar nada 👌\n\n🔗 Link na bio ou direto em veraneiafit.com\n\n#lookdeacademia #modafitness #treinofeminino #corrida #yoga",
+      "media": "content-a/reel-05.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792127/cliente-a/a-d1-05.mp4"
+    },
+    {
       "id": "b-d2-11",
       "account": "b",
       "date": "2026-10-24",
@@ -146,6 +201,17 @@
       "media": "content-b/reel-11.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d2-11.mp4",
       "status": "pending"
+    },
+    {
+      "id": "a-d1-06",
+      "account": "a",
+      "date": "2026-10-24",
+      "time": "22:30",
+      "type": "reel",
+      "caption": "Cor nova pra dar aquele gás no treino 🌈💥\n\n💳 Confira em veraneiafit.com\n\n#modafitness #fitnessbrasil #roupafitness #shape #veraneiafit",
+      "media": "content-a/reel-06.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792128/cliente-a/a-d1-06.mp4"
     },
     {
       "id": "b-d2-12",
@@ -159,6 +225,17 @@
       "status": "pending"
     },
     {
+      "id": "a-d2-07",
+      "account": "a",
+      "date": "2026-10-25",
+      "time": "10:00",
+      "type": "reel",
+      "caption": "Peças que acompanham o seu ritmo 🏃‍♀️\n\n🛍️ Compre em veraneiafit.com\n\n#modafitness #conjuntofitness #fitnessgirl #treinoemcasa #lookfitness",
+      "media": "content-a/reel-07.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792130/cliente-a/a-d2-07.mp4"
+    },
+    {
       "id": "b-d3-13",
       "account": "b",
       "date": "2026-10-25",
@@ -168,6 +245,17 @@
       "media": "content-b/reel-13.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d3-13.mp4",
       "status": "pending"
+    },
+    {
+      "id": "a-d2-08",
+      "account": "a",
+      "date": "2026-10-25",
+      "time": "12:30",
+      "type": "reel",
+      "caption": "Quem se sente bem, treina melhor 💖\n\n👉 Garanta o seu em veraneiafit.com\n\n#roupadeacademia #modafitness #crossfit #motivacao #fitness",
+      "media": "content-a/reel-08.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792132/cliente-a/a-d2-08.mp4"
     },
     {
       "id": "b-d3-14",
@@ -181,6 +269,17 @@
       "status": "pending"
     },
     {
+      "id": "a-d2-09",
+      "account": "a",
+      "date": "2026-10-25",
+      "time": "15:00",
+      "type": "reel",
+      "caption": "Top com sustentação de verdade, pra você focar só no treino 🔝\n\n✨ Disponível em veraneiafit.com\n\n#modafitness #topfitness #leggingfitness #academia #veraneiafit",
+      "media": "content-a/reel-09.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792134/cliente-a/a-d2-09.mp4"
+    },
+    {
       "id": "b-d3-15",
       "account": "b",
       "date": "2026-10-25",
@@ -190,6 +289,17 @@
       "media": "content-b/reel-15.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d3-15.mp4",
       "status": "pending"
+    },
+    {
+      "id": "a-d2-10",
+      "account": "a",
+      "date": "2026-10-25",
+      "time": "17:30",
+      "type": "reel",
+      "caption": "Look de academia que vira look do dia 😍\n\n📦 Enviamos para todo o Brasil: veraneiafit.com\n\n#lookdeacademia #modafitness #treinofeminino #corrida #yoga",
+      "media": "content-a/reel-10.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792136/cliente-a/a-d2-10.mp4"
     },
     {
       "id": "b-d3-16",
@@ -203,6 +313,17 @@
       "status": "pending"
     },
     {
+      "id": "a-d2-11",
+      "account": "a",
+      "date": "2026-10-25",
+      "time": "20:00",
+      "type": "reel",
+      "caption": "Tecido que respira, seca rápido e valoriza 💧\n\n🔗 Link na bio ou direto em veraneiafit.com\n\n#modafitness #fitnessbrasil #roupafitness #shape #veraneiafit",
+      "media": "content-a/reel-11.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792137/cliente-a/a-d2-11.mp4"
+    },
+    {
       "id": "b-d3-17",
       "account": "b",
       "date": "2026-10-25",
@@ -212,6 +333,17 @@
       "media": "content-b/reel-17.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d3-17.mp4",
       "status": "pending"
+    },
+    {
+      "id": "a-d2-12",
+      "account": "a",
+      "date": "2026-10-25",
+      "time": "22:30",
+      "type": "reel",
+      "caption": "Disciplina no treino, capricho no look 🖤🔥\n\n💳 Confira em veraneiafit.com\n\n#modafitness #roupafitness #legging #academia #treino",
+      "media": "content-a/reel-12.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792139/cliente-a/a-d2-12.mp4"
     },
     {
       "id": "b-d3-18",
@@ -225,6 +357,17 @@
       "status": "pending"
     },
     {
+      "id": "a-d3-13",
+      "account": "a",
+      "date": "2026-10-26",
+      "time": "10:00",
+      "type": "reel",
+      "caption": "Seu corpo, suas regras, seu conjunto favorito ✨\n\n🛍️ Compre em veraneiafit.com\n\n#roupadeacademia #modafitness #crossfit #motivacao #fitness",
+      "media": "content-a/reel-13.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792141/cliente-a/a-d3-13.mp4"
+    },
+    {
       "id": "b-d4-19",
       "account": "b",
       "date": "2026-10-26",
@@ -234,6 +377,17 @@
       "media": "content-b/reel-19.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d4-19.mp4",
       "status": "pending"
+    },
+    {
+      "id": "a-d3-14",
+      "account": "a",
+      "date": "2026-10-26",
+      "time": "12:30",
+      "type": "reel",
+      "caption": "Bora treinar? O look já tá pronto 💪\n\n👉 Garanta o seu em veraneiafit.com\n\n#modafitness #topfitness #leggingfitness #academia #veraneiafit",
+      "media": "content-a/reel-14.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792142/cliente-a/a-d3-14.mp4"
     },
     {
       "id": "b-d4-20",
@@ -247,6 +401,17 @@
       "status": "pending"
     },
     {
+      "id": "a-d3-15",
+      "account": "a",
+      "date": "2026-10-26",
+      "time": "15:00",
+      "type": "reel",
+      "caption": "Cintura alta que não desce no meio do treino 🙌\n\n✨ Disponível em veraneiafit.com\n\n#lookdeacademia #modafitness #treinofeminino #corrida #yoga",
+      "media": "content-a/reel-15.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792144/cliente-a/a-d3-15.mp4"
+    },
+    {
       "id": "b-d4-21",
       "account": "b",
       "date": "2026-10-26",
@@ -256,6 +421,17 @@
       "media": "content-b/reel-21.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d4-21.mp4",
       "status": "pending"
+    },
+    {
+      "id": "a-d3-16",
+      "account": "a",
+      "date": "2026-10-26",
+      "time": "17:30",
+      "type": "reel",
+      "caption": "Pra correr, pular, agachar e brilhar ⚡\n\n📦 Enviamos para todo o Brasil: veraneiafit.com\n\n#modafitness #fitnessbrasil #roupafitness #shape #veraneiafit",
+      "media": "content-a/reel-16.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792145/cliente-a/a-d3-16.mp4"
     },
     {
       "id": "b-d4-22",
@@ -269,6 +445,17 @@
       "status": "pending"
     },
     {
+      "id": "a-d3-17",
+      "account": "a",
+      "date": "2026-10-26",
+      "time": "20:00",
+      "type": "reel",
+      "caption": "Moda fitness pensada pra mulher real 💕\n\n🔗 Link na bio ou direto em veraneiafit.com\n\n#modafitness #roupafitness #legging #academia #treino",
+      "media": "content-a/reel-17.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792147/cliente-a/a-d3-17.mp4"
+    },
+    {
       "id": "b-d4-23",
       "account": "b",
       "date": "2026-10-26",
@@ -278,6 +465,17 @@
       "media": "content-b/reel-23.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d4-23.mp4",
       "status": "pending"
+    },
+    {
+      "id": "a-d3-18",
+      "account": "a",
+      "date": "2026-10-26",
+      "time": "22:30",
+      "type": "reel",
+      "caption": "Segunda-feira pede conjunto novo 😏🏋️‍♀️\n\n💳 Confira em veraneiafit.com\n\n#modafitness #conjuntofitness #fitnessgirl #treinoemcasa #lookfitness",
+      "media": "content-a/reel-18.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792149/cliente-a/a-d3-18.mp4"
     },
     {
       "id": "b-d4-24",
@@ -291,6 +489,17 @@
       "status": "pending"
     },
     {
+      "id": "a-d4-19",
+      "account": "a",
+      "date": "2026-10-27",
+      "time": "10:00",
+      "type": "reel",
+      "caption": "Mais confiança em cada repetição 💪✨\n\n🛍️ Compre em veraneiafit.com\n\n#modafitness #topfitness #leggingfitness #academia #veraneiafit",
+      "media": "content-a/reel-19.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792152/cliente-a/a-d4-19.mp4"
+    },
+    {
       "id": "b-d5-25",
       "account": "b",
       "date": "2026-10-27",
@@ -300,6 +509,17 @@
       "media": "content-b/reel-25.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d5-25.mp4",
       "status": "pending"
+    },
+    {
+      "id": "a-d4-20",
+      "account": "a",
+      "date": "2026-10-27",
+      "time": "12:30",
+      "type": "reel",
+      "caption": "Básico que nunca falha 🤍\n\n👉 Garanta o seu em veraneiafit.com\n\n#lookdeacademia #modafitness #treinofeminino #corrida #yoga",
+      "media": "content-a/reel-20.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792154/cliente-a/a-d4-20.mp4"
     },
     {
       "id": "b-d5-26",
@@ -313,6 +533,17 @@
       "status": "pending"
     },
     {
+      "id": "a-d4-21",
+      "account": "a",
+      "date": "2026-10-27",
+      "time": "15:00",
+      "type": "reel",
+      "caption": "Treino pesado, look leve 🪶\n\n✨ Disponível em veraneiafit.com\n\n#modafitness #fitnessbrasil #roupafitness #shape #veraneiafit",
+      "media": "content-a/reel-21.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792156/cliente-a/a-d4-21.mp4"
+    },
+    {
       "id": "b-d5-27",
       "account": "b",
       "date": "2026-10-27",
@@ -322,6 +553,17 @@
       "media": "content-b/reel-27.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d5-27.mp4",
       "status": "pending"
+    },
+    {
+      "id": "a-d4-22",
+      "account": "a",
+      "date": "2026-10-27",
+      "time": "17:30",
+      "type": "reel",
+      "caption": "Combina com yoga, crossfit, corrida e com você 🧘‍♀️\n\n📦 Enviamos para todo o Brasil: veraneiafit.com\n\n#modafitness #roupafitness #legging #academia #treino",
+      "media": "content-a/reel-22.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792157/cliente-a/a-d4-22.mp4"
     },
     {
       "id": "b-d5-28",
@@ -335,6 +577,17 @@
       "status": "pending"
     },
     {
+      "id": "a-d4-23",
+      "account": "a",
+      "date": "2026-10-27",
+      "time": "20:00",
+      "type": "reel",
+      "caption": "O conjunto que você vai querer em todas as cores 🎨\n\n🔗 Link na bio ou direto em veraneiafit.com\n\n#modafitness #conjuntofitness #fitnessgirl #treinoemcasa #lookfitness",
+      "media": "content-a/reel-23.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792160/cliente-a/a-d4-23.mp4"
+    },
+    {
       "id": "b-d5-29",
       "account": "b",
       "date": "2026-10-27",
@@ -344,6 +597,17 @@
       "media": "content-b/reel-29.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d5-29.mp4",
       "status": "pending"
+    },
+    {
+      "id": "a-d4-24",
+      "account": "a",
+      "date": "2026-10-27",
+      "time": "22:30",
+      "type": "reel",
+      "caption": "Sem marcar, sem apertar, sem desculpa pra faltar 😅💪\n\n💳 Confira em veraneiafit.com\n\n#roupadeacademia #modafitness #crossfit #motivacao #fitness",
+      "media": "content-a/reel-24.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792162/cliente-a/a-d4-24.mp4"
     },
     {
       "id": "b-d5-30",
@@ -357,6 +621,17 @@
       "status": "pending"
     },
     {
+      "id": "a-d5-25",
+      "account": "a",
+      "date": "2026-10-28",
+      "time": "10:00",
+      "type": "reel",
+      "caption": "Estilo também é constância 🔁\n\n🛍️ Compre em veraneiafit.com\n\n#lookdeacademia #modafitness #treinofeminino #corrida #yoga",
+      "media": "content-a/reel-25.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792164/cliente-a/a-d5-25.mp4"
+    },
+    {
       "id": "b-d6-31",
       "account": "b",
       "date": "2026-10-28",
@@ -366,6 +641,17 @@
       "media": "content-b/reel-31.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d6-31.mp4",
       "status": "pending"
+    },
+    {
+      "id": "a-d5-26",
+      "account": "a",
+      "date": "2026-10-28",
+      "time": "12:30",
+      "type": "reel",
+      "caption": "Feito pra acompanhar sua evolução 📈\n\n👉 Garanta o seu em veraneiafit.com\n\n#modafitness #fitnessbrasil #roupafitness #shape #veraneiafit",
+      "media": "content-a/reel-26.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792165/cliente-a/a-d5-26.mp4"
     },
     {
       "id": "b-d6-32",
@@ -379,6 +665,17 @@
       "status": "pending"
     },
     {
+      "id": "a-d5-27",
+      "account": "a",
+      "date": "2026-10-28",
+      "time": "15:00",
+      "type": "reel",
+      "caption": "Sua versão mais forte começa hoje 🔥\n\n✨ Disponível em veraneiafit.com\n\n#modafitness #roupafitness #legging #academia #treino",
+      "media": "content-a/reel-27.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792168/cliente-a/a-d5-27.mp4"
+    },
+    {
       "id": "b-d6-33",
       "account": "b",
       "date": "2026-10-28",
@@ -388,6 +685,17 @@
       "media": "content-b/reel-33.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d6-33.mp4",
       "status": "pending"
+    },
+    {
+      "id": "a-d5-28",
+      "account": "a",
+      "date": "2026-10-28",
+      "time": "17:30",
+      "type": "reel",
+      "caption": "Conforto do primeiro ao último minuto ⏱️\n\n📦 Enviamos para todo o Brasil: veraneiafit.com\n\n#modafitness #conjuntofitness #fitnessgirl #treinoemcasa #lookfitness",
+      "media": "content-a/reel-28.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792171/cliente-a/a-d5-28.mp4"
     },
     {
       "id": "b-d6-34",
@@ -401,6 +709,17 @@
       "status": "pending"
     },
     {
+      "id": "a-d5-29",
+      "account": "a",
+      "date": "2026-10-28",
+      "time": "20:00",
+      "type": "reel",
+      "caption": "Look que motiva até no dia de preguiça 😴➡️💪\n\n🔗 Link na bio ou direto em veraneiafit.com\n\n#roupadeacademia #modafitness #crossfit #motivacao #fitness",
+      "media": "content-a/reel-29.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792174/cliente-a/a-d5-29.mp4"
+    },
+    {
       "id": "b-d6-35",
       "account": "b",
       "date": "2026-10-28",
@@ -410,6 +729,17 @@
       "media": "content-b/reel-35.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d6-35.mp4",
       "status": "pending"
+    },
+    {
+      "id": "a-d5-30",
+      "account": "a",
+      "date": "2026-10-28",
+      "time": "22:30",
+      "type": "reel",
+      "caption": "Shape em construção, look já finalizado ✅\n\n💳 Confira em veraneiafit.com\n\n#modafitness #topfitness #leggingfitness #academia #veraneiafit",
+      "media": "content-a/reel-30.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792175/cliente-a/a-d5-30.mp4"
     },
     {
       "id": "b-d6-36",
@@ -423,6 +753,17 @@
       "status": "pending"
     },
     {
+      "id": "a-d6-31",
+      "account": "a",
+      "date": "2026-10-29",
+      "time": "10:00",
+      "type": "reel",
+      "caption": "Treinar fica mais gostoso com a roupa certa 💗\n\n🛍️ Compre em veraneiafit.com\n\n#modafitness #fitnessbrasil #roupafitness #shape #veraneiafit",
+      "media": "content-a/reel-31.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792179/cliente-a/a-d6-31.mp4"
+    },
+    {
       "id": "b-d7-37",
       "account": "b",
       "date": "2026-10-29",
@@ -432,6 +773,17 @@
       "media": "content-b/reel-37.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d7-37.mp4",
       "status": "pending"
+    },
+    {
+      "id": "a-d6-32",
+      "account": "a",
+      "date": "2026-10-29",
+      "time": "12:30",
+      "type": "reel",
+      "caption": "Leveza pra se movimentar sem limites 🌀\n\n👉 Garanta o seu em veraneiafit.com\n\n#modafitness #roupafitness #legging #academia #treino",
+      "media": "content-a/reel-32.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792181/cliente-a/a-d6-32.mp4"
     },
     {
       "id": "b-d7-38",
@@ -445,6 +797,17 @@
       "status": "pending"
     },
     {
+      "id": "a-d6-33",
+      "account": "a",
+      "date": "2026-10-29",
+      "time": "15:00",
+      "type": "reel",
+      "caption": "Detalhes que fazem diferença no treino e no espelho 🪞\n\n✨ Disponível em veraneiafit.com\n\n#modafitness #conjuntofitness #fitnessgirl #treinoemcasa #lookfitness",
+      "media": "content-a/reel-33.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792184/cliente-a/a-d6-33.mp4"
+    },
+    {
       "id": "b-d7-39",
       "account": "b",
       "date": "2026-10-29",
@@ -454,6 +817,17 @@
       "media": "content-b/reel-39.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d7-39.mp4",
       "status": "pending"
+    },
+    {
+      "id": "a-d6-34",
+      "account": "a",
+      "date": "2026-10-29",
+      "time": "17:30",
+      "type": "reel",
+      "caption": "Ela não falta no treino. E nem no estilo 🖤\n\n📦 Enviamos para todo o Brasil: veraneiafit.com\n\n#roupadeacademia #modafitness #crossfit #motivacao #fitness",
+      "media": "content-a/reel-34.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792187/cliente-a/a-d6-34.mp4"
     },
     {
       "id": "b-d7-40",
@@ -467,6 +841,17 @@
       "status": "pending"
     },
     {
+      "id": "a-d6-35",
+      "account": "a",
+      "date": "2026-10-29",
+      "time": "20:00",
+      "type": "reel",
+      "caption": "Peça coringa pra montar mil looks 🔄\n\n🔗 Link na bio ou direto em veraneiafit.com\n\n#modafitness #topfitness #leggingfitness #academia #veraneiafit",
+      "media": "content-a/reel-35.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792189/cliente-a/a-d6-35.mp4"
+    },
+    {
       "id": "b-d7-41",
       "account": "b",
       "date": "2026-10-29",
@@ -478,6 +863,17 @@
       "status": "pending"
     },
     {
+      "id": "a-d6-36",
+      "account": "a",
+      "date": "2026-10-29",
+      "time": "22:30",
+      "type": "reel",
+      "caption": "Fitness com personalidade 💥\n\n💳 Confira em veraneiafit.com\n\n#lookdeacademia #modafitness #treinofeminino #corrida #yoga",
+      "media": "content-a/reel-36.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792191/cliente-a/a-d6-36.mp4"
+    },
+    {
       "id": "b-d7-42",
       "account": "b",
       "date": "2026-10-29",
@@ -487,6 +883,72 @@
       "media": "content-b/reel-42.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d7-42.mp4",
       "status": "pending"
+    },
+    {
+      "id": "a-d7-37",
+      "account": "a",
+      "date": "2026-10-30",
+      "time": "10:00",
+      "type": "reel",
+      "caption": "Você no controle, o look acompanha 🎯\n\n🛍️ Compre em veraneiafit.com\n\n#modafitness #roupafitness #legging #academia #treino",
+      "media": "content-a/reel-37.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792193/cliente-a/a-d7-37.mp4"
+    },
+    {
+      "id": "a-d7-38",
+      "account": "a",
+      "date": "2026-10-30",
+      "time": "12:30",
+      "type": "reel",
+      "caption": "Suor, foco e um conjunto lindo 💦✨\n\n👉 Garanta o seu em veraneiafit.com\n\n#modafitness #conjuntofitness #fitnessgirl #treinoemcasa #lookfitness",
+      "media": "content-a/reel-38.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792197/cliente-a/a-d7-38.mp4"
+    },
+    {
+      "id": "a-d7-39",
+      "account": "a",
+      "date": "2026-10-30",
+      "time": "15:00",
+      "type": "reel",
+      "caption": "Pra quem treina de verdade 🏋️‍♀️🔥\n\n✨ Disponível em veraneiafit.com\n\n#roupadeacademia #modafitness #crossfit #motivacao #fitness",
+      "media": "content-a/reel-39.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792198/cliente-a/a-d7-39.mp4"
+    },
+    {
+      "id": "a-d7-40",
+      "account": "a",
+      "date": "2026-10-30",
+      "time": "17:30",
+      "type": "reel",
+      "caption": "Cuidar de você também é escolher bem o que vestir 💕\n\n📦 Enviamos para todo o Brasil: veraneiafit.com\n\n#modafitness #topfitness #leggingfitness #academia #veraneiafit",
+      "media": "content-a/reel-40.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792202/cliente-a/a-d7-40.mp4"
+    },
+    {
+      "id": "a-d7-41",
+      "account": "a",
+      "date": "2026-10-30",
+      "time": "20:00",
+      "type": "reel",
+      "caption": "Nova semana, novas metas, novo look 🎯\n\n🔗 Link na bio ou direto em veraneiafit.com\n\n#lookdeacademia #modafitness #treinofeminino #corrida #yoga",
+      "media": "content-a/reel-41.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792204/cliente-a/a-d7-41.mp4"
+    },
+    {
+      "id": "a-d7-42",
+      "account": "a",
+      "date": "2026-10-30",
+      "time": "22:30",
+      "type": "reel",
+      "caption": "Obrigada por treinar com a gente 💖 Novidades toda semana!\n\n💳 Confira em veraneiafit.com\n\n#modafitness #fitnessbrasil #roupafitness #shape #veraneiafit",
+      "media": "content-a/reel-42.mp4",
+      "status": "pending",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792205/cliente-a/a-d7-42.mp4"
     }
   ]
 }
