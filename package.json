@@ -1,0 +1,25 @@
+{
+  "name": "cliente-insta-bot",
+  "version": "1.1.0",
+  "description": "Automacao de posts Instagram — 2 contas, 6 reels/dia, 100% via GitHub Actions",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "auth": "node src/auth.js",
+    "status": "node src/status.js",
+    "refresh-token": "node src/token.js refresh all",
+    "token-info": "node src/token.js info",
+    "generate-calendar": "node src/generate-calendar.js",
+    "upload": "node src/upload.js",
+    "bulk-upload": "node src/bulk-upload.js",
+    "sync": "node src/sync-cloudinary.js",
+    "check": "node src/check-calendar.js",
+    "schedule": "node src/scheduler.js",
+    "schedule:dry": "node src/dry-run.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

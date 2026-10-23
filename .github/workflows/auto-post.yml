@@ -1,0 +1,75 @@
+name: Auto Post (6x/dia)
+
+on:
+  # 6 horarios por dia — America/Sao_Paulo (UTC-3, sem horario de verao)
+  # O cron do GitHub pode atrasar 5-40 min em horarios de pico;
+  # o scheduler tolera isso (publica qualquer post do dia cujo horario ja passou).
+  schedule:
+    - cron: '0 13 * * *'    # 10:00 BRT
+    - cron: '30 15 * * *'   # 12:30 BRT
+    - cron: '0 18 * * *'    # 15:00 BRT
+    - cron: '30 20 * * *'   # 17:30 BRT
+    - cron: '0 23 * * *'    # 20:00 BRT
+    - cron: '30 1 * * *'    # 22:30 BRT (dia seguinte em UTC)
+
+  # Permite rodar manualmente pela aba Actions (botao "Run workflow")
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Simular sem publicar (true/false)'
+        required: false
+        default: 'false'
+
+# Necessario para o bot conseguir fazer git push do calendar.json atualizado
+permissions:
+  contents: write
+
+# Nunca roda duas execucoes ao mesmo tempo (evita conflito de push e post duplicado)
+concurrency:
+  group: auto-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci || npm install
+
+      - name: Run scheduler
+        env:
+          ACCOUNT_A_LONG_LIVED_TOKEN: ${{ secrets.ACCOUNT_A_LONG_LIVED_TOKEN }}
+          ACCOUNT_A_INSTAGRAM_USER_ID: ${{ secrets.ACCOUNT_A_INSTAGRAM_USER_ID }}
+          ACCOUNT_B_LONG_LIVED_TOKEN: ${{ secrets.ACCOUNT_B_LONG_LIVED_TOKEN }}
+          ACCOUNT_B_INSTAGRAM_USER_ID: ${{ secrets.ACCOUNT_B_INSTAGRAM_USER_ID }}
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: node src/scheduler.js
+
+      - name: Commit calendar updates
+        # Roda mesmo se um post falhou (salva o que deu certo + o motivo do erro)
+        if: ${{ always() }}
+        run: |
+          if git diff --quiet calendar.json; then
+            echo "Nenhuma mudanca no calendario"
+          else
+            git config user.name "Insta Bot"
+            git config user.email "bot@insta-bot.local"
+            git add calendar.json
+            git commit -m "📸 Posts publicados $(date -u +%Y-%m-%d\ %H:%M) UTC"
+            # Se alguem editou o repo nesse meio tempo, traz as mudancas antes de enviar
+            git pull --rebase origin "${GITHUB_REF_NAME}" || true
+            git push
+          fi

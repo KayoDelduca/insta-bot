@@ -1,0 +1,90 @@
+name: Refresh Tokens
+
+on:
+  # Dia 1 e dia 16 de cada mes, 12:00 UTC (09:00 BRT).
+  # Token do Instagram dura 60 dias; renovar a cada ~15 dias da folga de sobra
+  # mesmo se uma execucao falhar.
+  schedule:
+    - cron: '0 12 1,16 * *'
+
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Verificar GH_PAT
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -z "$GH_PAT" ]; then
+            echo "❌ Secret GH_PAT nao configurado."
+            echo "   O GITHUB_TOKEN padrao NAO consegue gravar secrets."
+            echo "   Crie um Personal Access Token (fine-grained) com permissao"
+            echo "   'Secrets: Read and write' neste repositorio e salve como secret GH_PAT."
+            exit 1
+          fi
+
+      - name: Refresh Account A
+        env:
+          LONG_LIVED_TOKEN: ${{ secrets.ACCOUNT_A_LONG_LIVED_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          echo "🔄 Renovando token da conta A..."
+          RESPONSE=$(curl -s "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=$LONG_LIVED_TOKEN")
+
+          NEW_TOKEN=$(echo "$RESPONSE" | node -e "
+            let d='';
+            process.stdin.on('data',c=>d+=c);
+            process.stdin.on('end',()=>{
+              const j=JSON.parse(d);
+              if(j.error){console.error('ERRO:',j.error.message);process.exit(1)}
+              console.error('Novo token expira em', Math.round(j.expires_in/86400), 'dias');
+              console.log(j.access_token)
+            })
+          ")
+
+          if [ -z "$NEW_TOKEN" ]; then
+            echo "❌ Falha ao renovar token A"
+            exit 1
+          fi
+
+          echo "$NEW_TOKEN" | gh secret set ACCOUNT_A_LONG_LIVED_TOKEN --repo "$GITHUB_REPOSITORY"
+          echo "✅ Conta A renovada"
+
+      - name: Refresh Account B
+        if: ${{ always() }}
+        env:
+          LONG_LIVED_TOKEN: ${{ secrets.ACCOUNT_B_LONG_LIVED_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -z "$LONG_LIVED_TOKEN" ]; then
+            echo "⏭️  Conta B nao configurada, pulando"
+            exit 0
+          fi
+
+          echo "🔄 Renovando token da conta B..."
+          RESPONSE=$(curl -s "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=$LONG_LIVED_TOKEN")
+
+          NEW_TOKEN=$(echo "$RESPONSE" | node -e "
+            let d='';
+            process.stdin.on('data',c=>d+=c);
+            process.stdin.on('end',()=>{
+              const j=JSON.parse(d);
+              if(j.error){console.error('ERRO:',j.error.message);process.exit(1)}
+              console.error('Novo token expira em', Math.round(j.expires_in/86400), 'dias');
+              console.log(j.access_token)
+            })
+          ")
+
+          if [ -z "$NEW_TOKEN" ]; then
+            echo "❌ Falha ao renovar token B"
+            exit 1
+          fi
+
+          echo "$NEW_TOKEN" | gh secret set ACCOUNT_B_LONG_LIVED_TOKEN --repo "$GITHUB_REPOSITORY"
+          echo "✅ Conta B renovada"

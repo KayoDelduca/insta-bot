@@ -1,0 +1,9 @@
+node_modules/
+.env
+*.log
+
+# Videos ficam so no seu computador + Cloudinary (npm run bulk-upload).
+# NAO suba videos pro GitHub: limite de 100 MB por arquivo e repo pesado.
+# Se preferir subir videos pequenos pro repo mesmo assim, apague as 2 linhas abaixo.
+content-*/*.mp4
+content-*/*.mov
