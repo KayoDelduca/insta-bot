@@ -159,8 +159,13 @@
       "type": "reel",
       "caption": "Legging que não fica transparente no agachamento? Temos ✅🏋️‍♀️\n\n✨ Disponível em veraneiafit.com\n\n#roupadeacademia #modafitness #crossfit #motivacao #fitness",
       "media": "content-a/reel-03.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792124/cliente-a/a-d1-03.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792124/cliente-a/a-d1-03.mp4",
+      "posted": true,
+      "posted_at": "2026-10-24T18:16:54.354Z",
+      "instagram_id": "17908408707590777",
+      "story_id": "18144252418594460",
+      "story_posted_at": "2026-10-24T18:17:29.749Z"
     },
     {
       "id": "b-d2-09",
@@ -171,7 +176,12 @@
       "caption": "Opções de vestidos para a Santa Ceia 🙏👗\nQual deles você escolheria?\n\n#modamodesta #vestidos #vestidoevangelico #moda #lookdodia",
       "media": "content-b/reel-09.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d2-09.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-24T18:18:03.982Z",
+      "instagram_id": "18110576519269291",
+      "story_id": "18146991766571394",
+      "story_posted_at": "2026-10-24T18:18:34.401Z"
     },
     {
       "id": "a-d1-04",
