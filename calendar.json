@@ -127,8 +127,13 @@
       "type": "reel",
       "caption": "Conforto pra treinar, estilo pra sair da academia direto pro dia 🖤\n\n👉 Garanta o seu em veraneiafit.com\n\n#modafitness #conjuntofitness #fitnessgirl #treinoemcasa #lookfitness",
       "media": "content-a/reel-02.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792122/cliente-a/a-d1-02.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792122/cliente-a/a-d1-02.mp4",
+      "posted": true,
+      "posted_at": "2026-10-24T16:24:55.409Z",
+      "instagram_id": "17908689129590482",
+      "story_id": "17912378565556255",
+      "story_posted_at": "2026-10-24T16:26:21.076Z"
     },
     {
       "id": "b-d2-08",
@@ -139,7 +144,12 @@
       "caption": "Modéstia e elegância andam juntas ✨💖👗\n\n#modamodesta #vestidolongo #modafeminina #elegancia #look",
       "media": "content-b/reel-08.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d2-08.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-24T16:26:50.111Z",
+      "instagram_id": "18132574000684257",
+      "story_id": "18134110331505199",
+      "story_posted_at": "2026-10-24T16:28:02.341Z"
     },
     {
       "id": "a-d1-03",
