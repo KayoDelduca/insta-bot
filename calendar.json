@@ -191,8 +191,13 @@
       "type": "reel",
       "caption": "Seu treino merece um conjunto à altura ✨\n\n📦 Enviamos para todo o Brasil: veraneiafit.com\n\n#modafitness #topfitness #leggingfitness #academia #veraneiafit",
       "media": "content-a/reel-04.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792125/cliente-a/a-d1-04.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792125/cliente-a/a-d1-04.mp4",
+      "posted": true,
+      "posted_at": "2026-10-24T22:39:26.870Z",
+      "instagram_id": "18349064686255009",
+      "story_id": "18027351068919232",
+      "story_posted_at": "2026-10-24T22:39:57.200Z"
     },
     {
       "id": "b-d2-10",
@@ -203,7 +208,11 @@
       "caption": "Lançamento da semana 👗❤️‍🔥\nConta aqui o que achou!\n\n#modamodesta #look #modafeminina #vestido #estilo",
       "media": "content-b/reel-10.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d2-10.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-24T22:40:51.472Z",
+      "instagram_id": "18130654199496814",
+      "story_error": "Processamento falhou: \"ERROR\""
     },
     {
       "id": "a-d1-05",
