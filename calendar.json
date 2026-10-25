@@ -95,7 +95,12 @@
       "caption": "Spoiler do que vem por aí… 😮‍💨❤️‍🔥\nFica de olho, lançamento chegando.\n\n#modamodesta #vestidos #modaevangelica #lookdodia #elegancia",
       "media": "content-b/reel-06.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d1-06.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-25T18:01:48.874Z",
+      "instagram_id": "18135064990783144",
+      "story_id": "18098412260428150",
+      "story_posted_at": "2026-10-25T18:02:26.378Z"
     },
     {
       "id": "a-d1-01",
@@ -105,8 +110,13 @@
       "type": "reel",
       "caption": "Treino bom começa no look certo 💪🔥\n\n🛍️ Compre em veraneiafit.com\n\n#modafitness #roupafitness #legging #academia #treino",
       "media": "content-a/reel-01.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792120/cliente-a/a-d1-01.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792120/cliente-a/a-d1-01.mp4",
+      "posted": true,
+      "posted_at": "2026-10-25T18:02:57.328Z",
+      "instagram_id": "17970784001961625",
+      "story_id": "17913951102284461",
+      "story_posted_at": "2026-10-25T18:03:32.536Z"
     },
     {
       "id": "b-d2-07",
