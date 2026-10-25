@@ -127,7 +127,11 @@
       "caption": "Vestido Laís 👗 Simples, feminino e cheio de presença.\n\n#modamodesta #vestido #estilo #modaevangelica #lookdodia",
       "media": "content-b/reel-07.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d2-07.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-25T19:15:59.024Z",
+      "instagram_id": "18134905993591028",
+      "story_error": "Processamento falhou: \"ERROR\""
     },
     {
       "id": "a-d1-02",
@@ -263,8 +267,13 @@
       "type": "reel",
       "caption": "Cor nova pra dar aquele gás no treino 🌈💥\n\n💳 Confira em veraneiafit.com\n\n#modafitness #fitnessbrasil #roupafitness #shape #veraneiafit",
       "media": "content-a/reel-06.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792128/cliente-a/a-d1-06.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792128/cliente-a/a-d1-06.mp4",
+      "posted": true,
+      "posted_at": "2026-10-25T19:16:47.285Z",
+      "instagram_id": "18105381728634228",
+      "story_id": "18046704083817139",
+      "story_posted_at": "2026-10-25T19:17:17.270Z"
     },
     {
       "id": "b-d2-12",
