@@ -380,7 +380,11 @@
       "caption": "Vestido Louise em Marsala 😍\nUm clássico que nunca decepciona.\n\n#modamodesta #look #modafeminina #vestido #estilo",
       "media": "content-b/reel-15.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d3-15.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-25T23:02:04.703Z",
+      "instagram_id": "18146692843606542",
+      "story_error": "Processamento falhou: \"ERROR\""
     },
     {
       "id": "a-d2-10",
@@ -390,8 +394,13 @@
       "type": "reel",
       "caption": "Look de academia que vira look do dia 😍\n\n📦 Enviamos para todo o Brasil: veraneiafit.com\n\n#lookdeacademia #modafitness #treinofeminino #corrida #yoga",
       "media": "content-a/reel-10.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792136/cliente-a/a-d2-10.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792136/cliente-a/a-d2-10.mp4",
+      "posted": true,
+      "posted_at": "2026-10-25T23:03:00.871Z",
+      "instagram_id": "18339022252259789",
+      "story_id": "18107040215359191",
+      "story_posted_at": "2026-10-25T23:03:37.693Z"
     },
     {
       "id": "b-d3-16",
