@@ -284,7 +284,12 @@
       "caption": "Se você se veste mal, as pessoas reparam na roupa.\nSe você se veste bem, reparam em você 😉\n\n#modamodesta #vestidos #lookdodia #modafeminina #vestidoevangelico",
       "media": "content-b/reel-12.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d2-12.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-25T20:30:58.952Z",
+      "instagram_id": "18316218445303764",
+      "story_id": "18108040079522492",
+      "story_posted_at": "2026-10-25T20:32:04.788Z"
     },
     {
       "id": "a-d2-07",
@@ -294,8 +299,13 @@
       "type": "reel",
       "caption": "Peças que acompanham o seu ritmo 🏃‍♀️\n\n🛍️ Compre em veraneiafit.com\n\n#modafitness #conjuntofitness #fitnessgirl #treinoemcasa #lookfitness",
       "media": "content-a/reel-07.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792130/cliente-a/a-d2-07.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792130/cliente-a/a-d2-07.mp4",
+      "posted": true,
+      "posted_at": "2026-10-25T20:32:36.342Z",
+      "instagram_id": "18351319321249894",
+      "story_id": "18125991350309624",
+      "story_posted_at": "2026-10-25T20:33:06.651Z"
     },
     {
       "id": "b-d3-13",
