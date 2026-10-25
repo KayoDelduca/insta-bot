@@ -222,8 +222,13 @@
       "type": "reel",
       "caption": "Do aquecimento ao último set, sem precisar ajustar nada 👌\n\n🔗 Link na bio ou direto em veraneiafit.com\n\n#lookdeacademia #modafitness #treinofeminino #corrida #yoga",
       "media": "content-a/reel-05.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792127/cliente-a/a-d1-05.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792127/cliente-a/a-d1-05.mp4",
+      "posted": true,
+      "posted_at": "2026-10-25T00:52:43.205Z",
+      "instagram_id": "18059018123595044",
+      "story_id": "18109060943211074",
+      "story_posted_at": "2026-10-25T00:53:13.164Z"
     },
     {
       "id": "b-d2-11",
@@ -234,7 +239,11 @@
       "caption": "Novidade no ateliê 😍👗\nPeças pensadas para mulheres que gostam de se sentir bem.\n\n#modamodesta #vestidos #modaevangelica #lookdodia #elegancia",
       "media": "content-b/reel-11.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d2-11.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-25T00:54:27.149Z",
+      "instagram_id": "18109436612211740",
+      "story_error": "Processamento falhou: \"ERROR\""
     },
     {
       "id": "a-d1-06",
