@@ -316,7 +316,12 @@
       "caption": "Não temos planos… temos vestidos 👗🥰\n\n#modamodesta #vestidolongo #modafeminina #elegancia #look",
       "media": "content-b/reel-13.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d3-13.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-25T21:45:55.709Z",
+      "instagram_id": "17922131913451027",
+      "story_id": "18116734472024687",
+      "story_posted_at": "2026-10-25T21:46:26.388Z"
     },
     {
       "id": "a-d2-08",
@@ -358,8 +363,13 @@
       "type": "reel",
       "caption": "Top com sustentação de verdade, pra você focar só no treino 🔝\n\n✨ Disponível em veraneiafit.com\n\n#modafitness #topfitness #leggingfitness #academia #veraneiafit",
       "media": "content-a/reel-09.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792134/cliente-a/a-d2-09.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792134/cliente-a/a-d2-09.mp4",
+      "posted": true,
+      "posted_at": "2026-10-25T21:46:59.794Z",
+      "instagram_id": "17998963514829157",
+      "story_id": "18098246618534040",
+      "story_posted_at": "2026-10-25T21:47:31.448Z"
     },
     {
       "id": "b-d3-15",
