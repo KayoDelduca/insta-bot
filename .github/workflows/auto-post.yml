@@ -2,8 +2,9 @@ name: Auto Post (6x/dia)
 
 on:
   # 6 horarios por dia — America/Sao_Paulo (UTC-3, sem horario de verao)
-  # O cron do GitHub pode atrasar 5-40 min em horarios de pico;
-  # o scheduler tolera isso (publica qualquer post do dia cujo horario ja passou).
+  # O cron do GitHub pode atrasar horas ou pular execucoes; por isso o cron-job.org
+  # tambem dispara este workflow (workflow_dispatch) nos horarios certos.
+  # O scheduler publica atrasados depois, 1 por conta, com 60 min de intervalo.
   schedule:
     - cron: '0 13 * * *'    # 10:00 BRT
     - cron: '30 15 * * *'   # 12:30 BRT
@@ -37,6 +38,10 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          # Sempre a versao mais nova do calendario (uma execucao que ficou na
+          # fila precisa ver o que a anterior acabou de publicar)
+          ref: ${{ github.ref_name }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4

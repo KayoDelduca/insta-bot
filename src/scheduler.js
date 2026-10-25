@@ -6,10 +6,12 @@
  *
  * Regras:
  *   - Suporta multiplas contas (campo "account" no calendar.json)
- *   - Publica posts de HOJE cujo horario ja chegou (ate 5 min antes)
- *     e que nao estejam atrasados mais de 150 min. Isso tolera o atraso
- *     do cron do GitHub Actions (que pode chegar a 30-40 min) e ainda
- *     "recupera" um post perdido na proxima execucao.
+ *   - Publica posts pendentes cujo horario ja chegou (ate 5 min antes),
+ *     inclusive de dias anteriores (ate 3 dias). O cron do GitHub pode
+ *     atrasar horas ou pular execucoes; o post perdido sai na proxima.
+ *   - No maximo 1 post por conta por execucao, do mais antigo para o mais
+ *     novo, e nunca menos de 60 min depois do ultimo post daquela conta
+ *     (evita rajada de posts e bloqueio por spam).
  *   - Pula posts cuja legenda ainda e o texto-modelo "[LEGENDA ...]"
  *   - Prefere "media_url" (ja no Cloudinary) e so faz upload se houver
  *     apenas o arquivo local "media"
@@ -27,14 +29,15 @@ import { API_VERSION } from './api.js';
 
 const DRY_RUN = String(process.env.DRY_RUN).toLowerCase() === 'true';
 const EARLY_MINUTES = 5;     // pode publicar ate 5 min antes do horario
-const LATE_MINUTES = 150;    // e ate 150 min depois (menor que o intervalo entre slots)
+const MAX_LATE_DAYS = 3;     // post atrasado mais que isso e ignorado (calendario antigo)
+const MAX_PER_ACCOUNT = 1;   // posts por conta por execucao (nunca dois Reels seguidos)
+const MIN_GAP_MINUTES = 60;  // intervalo minimo entre dois posts da mesma conta
 const MAX_ATTEMPTS = 3;      // depois disso, para de tentar e marca como "failed"
 const PLACEHOLDER_RE = /^\s*\[LEGENDA/i;
 
 // ─── Helpers de data/hora ───
 
-function getNowBR() {
-  const now = new Date();
+function getNowBR(now = new Date()) {
   const dateStr = now.toLocaleDateString('en-CA', { timeZone: 'America/Sao_Paulo' });
   const timeStr = now.toLocaleTimeString('en-GB', {
     timeZone: 'America/Sao_Paulo',
@@ -45,14 +48,16 @@ function getNowBR() {
   return { date: dateStr, time: timeStr, raw: now };
 }
 
-function timeToMinutes(time) {
-  const [h, m] = time.split(':').map(Number);
-  return h * 60 + m;
+// "YYYY-MM-DD HH:MM" — compara direto como texto
+function stamp({ date, time }) {
+  return `${date} ${time || '00:00'}`;
 }
 
-function isDue(postTime, nowTime) {
-  const diff = timeToMinutes(nowTime) - timeToMinutes(postTime); // positivo = atrasado
-  return diff >= -EARLY_MINUTES && diff <= LATE_MINUTES;
+function isDue(post, nowBR) {
+  const limit = getNowBR(new Date(nowBR.raw.getTime() + EARLY_MINUTES * 60_000));
+  const oldest = getNowBR(new Date(nowBR.raw.getTime() - MAX_LATE_DAYS * 86_400_000));
+  const s = stamp(post);
+  return s <= stamp(limit) && s >= stamp(oldest);
 }
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -159,15 +164,35 @@ try {
   process.exit(1);
 }
 
-const { date: today, time: nowTime } = getNowBR();
-console.log(`📅 Hoje: ${today} | Agora: ${nowTime} (America/Sao_Paulo)${DRY_RUN ? ' | 🧪 DRY RUN' : ''}`);
+const nowBR = getNowBR();
+console.log(`📅 Hoje: ${nowBR.date} | Agora: ${nowBR.time} (America/Sao_Paulo)${DRY_RUN ? ' | 🧪 DRY RUN' : ''}`);
 
-const duePosts = calendar.posts.filter(p => {
-  if (p.date !== today) return false;
-  if (p.posted || p.status === 'published' || p.status === 'failed' || p.status === 'skipped') return false;
-  if (!p.time) return true; // sem horario = posta na primeira execucao do dia
-  return isDue(p.time, nowTime);
+// Mais antigos primeiro; sem horario = posta na primeira execucao do dia
+const pending = calendar.posts
+  .filter(p => !(p.posted || p.status === 'published' || p.status === 'failed' || p.status === 'skipped'))
+  .filter(p => isDue(p, nowBR))
+  .sort((x, y) => stamp(x).localeCompare(stamp(y)));
+
+// Ultimo post publicado de cada conta
+const lastPostedAt = {};
+for (const p of calendar.posts) {
+  if (!p.posted_at) continue;
+  const key = (p.account || 'a').toLowerCase();
+  const t = new Date(p.posted_at).getTime();
+  if (!(lastPostedAt[key] >= t)) lastPostedAt[key] = t;
+}
+
+const perAccount = {};
+const duePosts = pending.filter(p => {
+  const key = (p.account || 'a').toLowerCase();
+  const minutesSinceLast = (nowBR.raw.getTime() - (lastPostedAt[key] || 0)) / 60_000;
+  if (minutesSinceLast < MIN_GAP_MINUTES) return false;
+  perAccount[key] = (perAccount[key] || 0) + 1;
+  return perAccount[key] <= MAX_PER_ACCOUNT;
 });
+
+const waiting = pending.length - duePosts.length;
+if (waiting > 0) console.log(`⏳ ${waiting} post(s) atrasado(s) ficam para as proximas execucoes`);
 
 if (duePosts.length === 0) {
   console.log('😴 Nenhum post para este horario.');

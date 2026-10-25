@@ -43,7 +43,7 @@ Em Settings → Actions → General, marque **Read and write permissions**.
 
 ## Horários (America/Sao_Paulo)
 
-10:00 · 12:30 · 15:00 · 17:30 · 20:00 · 22:30 — o bot tolera atraso de até 150 min do cron do GitHub
+10:00 · 12:30 · 15:00 · 17:30 · 20:00 · 22:30 — se o cron do GitHub atrasar ou pular um horário, o bot publica o post atrasado na execução seguinte (1 post por conta por vez, com no mínimo 60 min entre posts da mesma conta, até 3 dias de atraso)
 e nunca publica o mesmo post duas vezes.
 
 ## Campos do `calendar.json`
