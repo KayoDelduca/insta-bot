@@ -554,8 +554,13 @@
       "type": "reel",
       "caption": "Cintura alta que não desce no meio do treino 🙌\n\n✨ Disponível em veraneiafit.com\n\n#lookdeacademia #modafitness #treinofeminino #corrida #yoga",
       "media": "content-a/reel-15.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792144/cliente-a/a-d3-15.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792144/cliente-a/a-d3-15.mp4",
+      "posted": true,
+      "posted_at": "2026-10-26T18:01:38.824Z",
+      "instagram_id": "18155505694467872",
+      "story_id": "18072756092754623",
+      "story_posted_at": "2026-10-26T18:03:05.210Z"
     },
     {
       "id": "b-d4-21",
@@ -566,7 +571,11 @@
       "caption": "Modéstia não é esconder, é escolher com inteligência 💡👗\n\n#modamodesta #vestidos #modaevangelica #lookdodia #elegancia",
       "media": "content-b/reel-21.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d4-21.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-26T18:03:41.155Z",
+      "instagram_id": "18177610336452176",
+      "story_error": "Processamento falhou: \"ERROR\""
     },
     {
       "id": "a-d3-16",
