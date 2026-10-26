@@ -411,7 +411,12 @@
       "caption": "Look de culto 💚\nAquele vestido que você veste e já se sente pronta.\n\n#modamodesta #vestidos #modaevangelica #lookdodia #elegancia",
       "media": "content-b/reel-16.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d3-16.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-26T00:16:55.812Z",
+      "instagram_id": "18466349962190872",
+      "story_id": "18118797857088774",
+      "story_posted_at": "2026-10-26T00:17:27.541Z"
     },
     {
       "id": "a-d2-11",
@@ -421,8 +426,13 @@
       "type": "reel",
       "caption": "Tecido que respira, seca rápido e valoriza 💧\n\n🔗 Link na bio ou direto em veraneiafit.com\n\n#modafitness #fitnessbrasil #roupafitness #shape #veraneiafit",
       "media": "content-a/reel-11.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792137/cliente-a/a-d2-11.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792137/cliente-a/a-d2-11.mp4",
+      "posted": true,
+      "posted_at": "2026-10-26T00:18:01.798Z",
+      "instagram_id": "18016029380991918",
+      "story_id": "18641495362000371",
+      "story_posted_at": "2026-10-26T00:18:33.987Z"
     },
     {
       "id": "b-d3-17",
