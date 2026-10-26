@@ -616,8 +616,13 @@
       "type": "reel",
       "caption": "Moda fitness pensada pra mulher real 💕\n\n🔗 Link na bio ou direto em veraneiafit.com\n\n#modafitness #roupafitness #legging #academia #treino",
       "media": "content-a/reel-17.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792147/cliente-a/a-d3-17.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792147/cliente-a/a-d3-17.mp4",
+      "posted": true,
+      "posted_at": "2026-10-26T23:01:39.899Z",
+      "instagram_id": "18029853404874774",
+      "story_id": "18168539329471519",
+      "story_posted_at": "2026-10-26T23:02:51.962Z"
     },
     {
       "id": "b-d4-23",
@@ -628,7 +633,11 @@
       "caption": "O vestido certo faz você andar diferente 💃\n\n#modamodesta #vestido #estilo #modaevangelica #lookdodia",
       "media": "content-b/reel-23.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d4-23.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-26T23:03:24.237Z",
+      "instagram_id": "17962321365239375",
+      "story_error": "Processamento falhou: \"ERROR\""
     },
     {
       "id": "a-d3-18",
