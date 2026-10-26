@@ -443,7 +443,12 @@
       "caption": "Não tenha vergonha de ser uma mulher bonita e bem vestida 👗💖\nVestido Poly Preto.\n\n#modamodesta #vestidos #lookdodia #modafeminina #vestidoevangelico",
       "media": "content-b/reel-17.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d3-17.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-26T01:31:14.004Z",
+      "instagram_id": "18137622982639968",
+      "story_id": "18126965386861369",
+      "story_posted_at": "2026-10-26T01:32:25.173Z"
     },
     {
       "id": "a-d2-12",
@@ -453,8 +458,13 @@
       "type": "reel",
       "caption": "Disciplina no treino, capricho no look 🖤🔥\n\n💳 Confira em veraneiafit.com\n\n#modafitness #roupafitness #legging #academia #treino",
       "media": "content-a/reel-12.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792139/cliente-a/a-d2-12.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792139/cliente-a/a-d2-12.mp4",
+      "posted": true,
+      "posted_at": "2026-10-26T01:32:56.529Z",
+      "instagram_id": "18093313769679442",
+      "story_id": "18143008204608780",
+      "story_posted_at": "2026-10-26T01:33:26.715Z"
     },
     {
       "id": "b-d3-18",
