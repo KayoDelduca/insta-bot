@@ -522,8 +522,13 @@
       "type": "reel",
       "caption": "Bora treinar? O look já tá pronto 💪\n\n👉 Garanta o seu em veraneiafit.com\n\n#modafitness #topfitness #leggingfitness #academia #veraneiafit",
       "media": "content-a/reel-14.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792142/cliente-a/a-d3-14.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792142/cliente-a/a-d3-14.mp4",
+      "posted": true,
+      "posted_at": "2026-10-26T15:31:11.065Z",
+      "instagram_id": "18039183830895970",
+      "story_id": "17956459806267449",
+      "story_posted_at": "2026-10-26T15:32:23.084Z"
     },
     {
       "id": "b-d4-20",
@@ -534,7 +539,12 @@
       "caption": "Tecido fluido, caimento perfeito ✨\nPara os dias em que você quer leveza.\n\n#modamodesta #look #modafeminina #vestido #estilo",
       "media": "content-b/reel-20.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d4-20.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-26T15:33:02.005Z",
+      "instagram_id": "18108345776625158",
+      "story_id": "18178521106444800",
+      "story_posted_at": "2026-10-26T15:33:32.367Z"
     },
     {
       "id": "a-d3-15",
