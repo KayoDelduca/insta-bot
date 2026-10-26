@@ -490,8 +490,13 @@
       "type": "reel",
       "caption": "Seu corpo, suas regras, seu conjunto favorito ✨\n\n🛍️ Compre em veraneiafit.com\n\n#roupadeacademia #modafitness #crossfit #motivacao #fitness",
       "media": "content-a/reel-13.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792141/cliente-a/a-d3-13.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792141/cliente-a/a-d3-13.mp4",
+      "posted": true,
+      "posted_at": "2026-10-26T13:01:48.090Z",
+      "instagram_id": "18128906791865667",
+      "story_id": "18099850610551203",
+      "story_posted_at": "2026-10-26T13:02:17.100Z"
     },
     {
       "id": "b-d4-19",
@@ -502,7 +507,12 @@
       "caption": "Um bom vestido muda o dia inteiro 🌷👗\n\n#modamodesta #vestidos #vestidoevangelico #moda #lookdodia",
       "media": "content-b/reel-19.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d4-19.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-26T13:02:47.539Z",
+      "instagram_id": "18382991770238410",
+      "story_id": "18116031722028053",
+      "story_posted_at": "2026-10-26T13:03:36.889Z"
     },
     {
       "id": "a-d3-14",
