@@ -585,8 +585,13 @@
       "type": "reel",
       "caption": "Pra correr, pular, agachar e brilhar ⚡\n\n📦 Enviamos para todo o Brasil: veraneiafit.com\n\n#modafitness #fitnessbrasil #roupafitness #shape #veraneiafit",
       "media": "content-a/reel-16.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792145/cliente-a/a-d3-16.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792145/cliente-a/a-d3-16.mp4",
+      "posted": true,
+      "posted_at": "2026-10-26T20:31:04.510Z",
+      "instagram_id": "17892012525457086",
+      "story_id": "18135115594676777",
+      "story_posted_at": "2026-10-26T20:31:36.815Z"
     },
     {
       "id": "b-d4-22",
@@ -597,7 +602,11 @@
       "caption": "Clássico, confortável e feminino 🤍\n\n#modamodesta #vestidos #lookdodia #modafeminina #vestidoevangelico",
       "media": "content-b/reel-22.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d4-22.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-26T20:32:11.702Z",
+      "instagram_id": "18111715697578416",
+      "story_error": "Processamento falhou: \"ERROR\""
     },
     {
       "id": "a-d3-17",
