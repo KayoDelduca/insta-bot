@@ -647,8 +647,13 @@
       "type": "reel",
       "caption": "Segunda-feira pede conjunto novo 😏🏋️‍♀️\n\n💳 Confira em veraneiafit.com\n\n#modafitness #conjuntofitness #fitnessgirl #treinoemcasa #lookfitness",
       "media": "content-a/reel-18.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792149/cliente-a/a-d3-18.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792149/cliente-a/a-d3-18.mp4",
+      "posted": true,
+      "posted_at": "2026-10-27T01:31:09.593Z",
+      "instagram_id": "18109688017913386",
+      "story_id": "17991715431027136",
+      "story_posted_at": "2026-10-27T01:31:39.376Z"
     },
     {
       "id": "b-d4-24",
@@ -659,7 +664,12 @@
       "caption": "Para o culto, para o almoço, para a vida 👗🙏\n\n#modamodesta #vestidolongo #modafeminina #elegancia #look",
       "media": "content-b/reel-24.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d4-24.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-27T01:32:11.579Z",
+      "instagram_id": "18105558746243072",
+      "story_id": "18174021214456460",
+      "story_posted_at": "2026-10-27T01:32:43.496Z"
     },
     {
       "id": "a-d4-19",
