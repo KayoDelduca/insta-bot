@@ -23,7 +23,7 @@
 import 'dotenv/config';
 import { readFileSync, writeFileSync, statSync } from 'fs';
 import { basename, resolve } from 'path';
-import { getAccountCredentials, resolveMediaPath, MIRRORS } from './accounts.js';
+import { getAccountCredentials, resolveMediaPath } from './accounts.js';
 import { uploadToCloudinary } from './cloudinary.js';
 import { API_VERSION } from './api.js';
 
@@ -166,36 +166,6 @@ try {
 
 const nowBR = getNowBR();
 console.log(`📅 Hoje: ${nowBR.date} | Agora: ${nowBR.time} (America/Sao_Paulo)${DRY_RUN ? ' | 🧪 DRY RUN' : ''}`);
-
-// ─── Contas espelho ───
-// Copia os posts futuros da conta de origem para o espelho (so se o espelho
-// tem credenciais). Espelho ainda pendente acompanha edicoes da origem.
-// Posts que ja passaram nao sao copiados: conta nova comeca do proximo horario.
-const MIRROR_FIELDS = ['date', 'time', 'type', 'caption', 'media', 'media_url', 'story'];
-let mirrored = 0;
-for (const [mirror, source] of Object.entries(MIRRORS)) {
-  try { getAccountCredentials(mirror); } catch { continue; }
-  const byId = new Map(calendar.posts.map(p => [p.id, p]));
-  for (const src of calendar.posts.filter(p => (p.account || 'a').toLowerCase() === source)) {
-    const id = `${mirror}-${src.id.replace(/^[a-z]+-/i, '')}`;
-    const copy = byId.get(id);
-    if (!copy) {
-      if (stamp(src) <= stamp(nowBR)) continue;
-      const post = { id, account: mirror, mirror_of: src.id, status: 'pending', posted: false };
-      for (const f of MIRROR_FIELDS) if (src[f] !== undefined) post[f] = src[f];
-      calendar.posts.push(post);
-      mirrored++;
-    } else if (copy.status === 'pending' && !copy.posted) {
-      for (const f of MIRROR_FIELDS) {
-        if (src[f] !== undefined && copy[f] !== src[f]) { copy[f] = src[f]; mirrored++; }
-      }
-    }
-  }
-}
-if (mirrored > 0) {
-  console.log(`🪞 ${mirrored} post(s)/campo(s) espelhado(s) para as contas backup`);
-  if (!DRY_RUN) writeFileSync(calendarPath, JSON.stringify(calendar, null, 2) + '\n');
-}
 
 // Mais antigos primeiro; sem horario = posta na primeira execucao do dia
 const pending = calendar.posts

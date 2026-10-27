@@ -11,11 +11,10 @@
 import { resolve } from 'path';
 
 /**
- * Contas espelho (backup): publicam o mesmo conteudo da conta de origem,
- * no mesmo horario. O scheduler copia sozinho os posts da origem para o
- * espelho assim que as credenciais do espelho existem.
+ * Contas backup: usam os mesmos videos da conta de origem, com legenda e
+ * calendario proprios. Usado pelo generate-calendar.js para achar os videos.
  */
-export const MIRRORS = { c: 'a', d: 'b' };
+export const BACKUP_OF = { c: 'a', d: 'b' };
 
 export function getAccountCredentials(accountKey) {
   const prefix = `ACCOUNT_${accountKey.toUpperCase()}_`;

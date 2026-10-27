@@ -68,6 +68,11 @@ for (const p of calendar.posts) {
     if (p.caption.length > 2200) problems.push(`${p.id}: legenda com ${p.caption.length} caracteres (max 2.200)`);
     const tags = (p.caption.match(/#\w+/g) || []).length;
     if (tags > 30) problems.push(`${p.id}: ${tags} hashtags (max 30)`);
+    // Conta backup: legenda igual a da conta de origem chama atencao do Instagram
+    const original = p.video_of && calendar.posts.find(o => o.id === p.video_of);
+    if (original && original.caption?.trim() === p.caption.trim()) {
+      problems.push(`${p.id}: legenda igual a de ${original.id} — escreva uma diferente na conta backup`);
+    }
   }
 
   // Midia

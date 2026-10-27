@@ -12,7 +12,8 @@ Guia completo (passo a passo com prints de onde clicar): veja o documento
 | --- | --- |
 | `node src/auth.js a` / `b` | Autoriza a conta e salva token + user id no `.env` |
 | `npm run status` | Mostra as contas e confirma que os tokens funcionam |
-| `node src/generate-calendar.js 2026-11-02` | Gera `calendar.json` com 7 dias × 6 horários × 2 contas |
+| `node src/generate-calendar.js 2026-11-02 [a,b]` | Gera `calendar-ab-2026-11-02.json` com 7 dias × 6 horários (não mexe no `calendar.json`) |
+| `node src/add-posts.js <arquivo>` | Junta os posts do arquivo no `calendar.json` sem apagar nada |
 | `npm run bulk-upload` | Sobe os vídeos de `content-a/` e `content-b/` para o Cloudinary e grava `media_url` |
 | `npm run check` | Confere se o calendário está pronto (legendas, mídia, datas) |
 | `npm run schedule:dry` | Simula o que o bot publicaria agora, sem publicar |
@@ -26,7 +27,8 @@ Guia completo (passo a passo com prints de onde clicar): veja o documento
 git pull
 node src/generate-calendar.js <segunda-feira>
 # coloque os vídeos em content-a/reel-01.mp4 ... reel-42.mp4 e content-b/...
-# edite as legendas no calendar.json
+# edite as legendas em calendar-ab-<segunda-feira>.json
+node src/add-posts.js calendar-ab-<segunda-feira>.json
 npm run bulk-upload
 npm run check
 git add calendar.json && git commit -m "semana X" && git push
@@ -44,11 +46,21 @@ Em Settings → Actions → General, marque **Read and write permissions**.
 
 ## Contas backup (C e D)
 
-C espelha A e D espelha B: mesmo vídeo, mesma legenda, mesmo horário. Não precisa
-mexer no calendar.json — o bot copia sozinho os posts futuros da origem assim que
-os secrets `ACCOUNT_C_LONG_LIVED_TOKEN` / `ACCOUNT_C_INSTAGRAM_USER_ID` (ou D)
-existirem no GitHub. Para autorizar: `node src/auth.js c` / `node src/auth.js d`.
-O mapeamento fica em `MIRRORS` no `src/accounts.js`.
+C usa os vídeos da A e D usa os vídeos da B, com **legenda e calendário próprios**
+(6 reels/dia por 7 dias, stories incluídos). Para montar uma semana:
+
+```
+git pull
+node src/generate-calendar.js <data-inicio> c,d --videos-de <data do 1º vídeo da A/B>
+# escreva as legendas em calendar-cd-<data-inicio>.json (diferentes das contas A/B)
+node src/add-posts.js calendar-cd-<data-inicio>.json
+npm run check        # avisa se alguma legenda ficou igual à da conta de origem
+git add calendar.json && git commit -m "backup semana X" && git push
+```
+
+O `media_url` do Cloudinary é copiado da conta de origem — não sobe vídeo de novo.
+Secrets: `ACCOUNT_C_LONG_LIVED_TOKEN`, `ACCOUNT_C_INSTAGRAM_USER_ID` (e D).
+Autorizar: `node src/auth.js c` / `node src/auth.js d`.
 
 ## Horários (America/Sao_Paulo)
 
