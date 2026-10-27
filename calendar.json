@@ -710,8 +710,13 @@
       "type": "reel",
       "caption": "Básico que nunca falha 🤍\n\n👉 Garanta o seu em veraneiafit.com\n\n#lookdeacademia #modafitness #treinofeminino #corrida #yoga",
       "media": "content-a/reel-20.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792154/cliente-a/a-d4-20.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792154/cliente-a/a-d4-20.mp4",
+      "posted": true,
+      "posted_at": "2026-10-27T15:31:02.203Z",
+      "instagram_id": "17891201364475484",
+      "story_id": "18373538896210980",
+      "story_posted_at": "2026-10-27T15:32:21.319Z"
     },
     {
       "id": "b-d5-26",
@@ -722,7 +727,12 @@
       "caption": "Cores que combinam com a sua luz 🌼\n\n#modamodesta #vestidos #modaevangelica #lookdodia #elegancia",
       "media": "content-b/reel-26.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d5-26.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-27T15:32:54.541Z",
+      "instagram_id": "18132114829747655",
+      "story_id": "18120135778989294",
+      "story_posted_at": "2026-10-27T15:33:41.749Z"
     },
     {
       "id": "a-d4-21",
