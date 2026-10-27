@@ -805,8 +805,13 @@
       "type": "reel",
       "caption": "O conjunto que você vai querer em todas as cores 🎨\n\n🔗 Link na bio ou direto em veraneiafit.com\n\n#modafitness #conjuntofitness #fitnessgirl #treinoemcasa #lookfitness",
       "media": "content-a/reel-23.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792160/cliente-a/a-d4-23.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792160/cliente-a/a-d4-23.mp4",
+      "posted": true,
+      "posted_at": "2026-10-27T23:01:04.515Z",
+      "instagram_id": "18567394747076548",
+      "story_id": "18023570606722362",
+      "story_posted_at": "2026-10-27T23:01:44.726Z"
     },
     {
       "id": "b-d5-29",
@@ -817,7 +822,12 @@
       "caption": "Aquele vestido que vira o preferido 🥰\n\n#modamodesta #vestidolongo #modafeminina #elegancia #look",
       "media": "content-b/reel-29.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d5-29.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-27T23:02:20.342Z",
+      "instagram_id": "17914502067489420",
+      "story_id": "17908906131332201",
+      "story_posted_at": "2026-10-27T23:02:49.667Z"
     },
     {
       "id": "a-d4-24",
