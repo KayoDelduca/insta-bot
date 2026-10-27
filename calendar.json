@@ -774,8 +774,13 @@
       "type": "reel",
       "caption": "Combina com yoga, crossfit, corrida e com você 🧘‍♀️\n\n📦 Enviamos para todo o Brasil: veraneiafit.com\n\n#modafitness #roupafitness #legging #academia #treino",
       "media": "content-a/reel-22.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792157/cliente-a/a-d4-22.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792157/cliente-a/a-d4-22.mp4",
+      "posted": true,
+      "posted_at": "2026-10-27T20:31:39.864Z",
+      "instagram_id": "18132918685820992",
+      "story_id": "18194610625399662",
+      "story_posted_at": "2026-10-27T20:32:10.942Z"
     },
     {
       "id": "b-d5-28",
@@ -786,7 +791,11 @@
       "caption": "Feminilidade com propósito 👗✨\n\n#modamodesta #vestido #estilo #modaevangelica #lookdodia",
       "media": "content-b/reel-28.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d5-28.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-27T20:33:36.989Z",
+      "instagram_id": "18146643697585878",
+      "story_error": "Processamento falhou: \"ERROR\""
     },
     {
       "id": "a-d4-23",
