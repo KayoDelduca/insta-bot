@@ -742,8 +742,13 @@
       "type": "reel",
       "caption": "Treino pesado, look leve 🪶\n\n✨ Disponível em veraneiafit.com\n\n#modafitness #fitnessbrasil #roupafitness #shape #veraneiafit",
       "media": "content-a/reel-21.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792156/cliente-a/a-d4-21.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792156/cliente-a/a-d4-21.mp4",
+      "posted": true,
+      "posted_at": "2026-10-27T18:01:08.855Z",
+      "instagram_id": "18129951767310938",
+      "story_id": "18116527304020932",
+      "story_posted_at": "2026-10-27T18:01:41.319Z"
     },
     {
       "id": "b-d5-27",
@@ -754,7 +759,12 @@
       "caption": "Um look para se sentir linda sem esforço 💖\n\n#modamodesta #vestidos #lookdodia #modafeminina #vestidoevangelico",
       "media": "content-b/reel-27.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d5-27.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-27T18:02:21.877Z",
+      "instagram_id": "17954944794335098",
+      "story_id": "18153419071551165",
+      "story_posted_at": "2026-10-27T18:02:53.837Z"
     },
     {
       "id": "a-d4-22",
