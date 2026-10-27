@@ -88,3 +88,69 @@ jobs:
 
           echo "$NEW_TOKEN" | gh secret set ACCOUNT_B_LONG_LIVED_TOKEN --repo "$GITHUB_REPOSITORY"
           echo "✅ Conta B renovada"
+
+      - name: Refresh Account C
+        if: ${{ always() }}
+        env:
+          LONG_LIVED_TOKEN: ${{ secrets.ACCOUNT_C_LONG_LIVED_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -z "$LONG_LIVED_TOKEN" ]; then
+            echo "⏭️  Conta B nao configurada, pulando"
+            exit 0
+          fi
+
+          echo "🔄 Renovando token da conta C..."
+          RESPONSE=$(curl -s "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=$LONG_LIVED_TOKEN")
+
+          NEW_TOKEN=$(echo "$RESPONSE" | node -e "
+            let d='';
+            process.stdin.on('data',c=>d+=c);
+            process.stdin.on('end',()=>{
+              const j=JSON.parse(d);
+              if(j.error){console.error('ERRO:',j.error.message);process.exit(1)}
+              console.error('Novo token expira em', Math.round(j.expires_in/86400), 'dias');
+              console.log(j.access_token)
+            })
+          ")
+
+          if [ -z "$NEW_TOKEN" ]; then
+            echo "❌ Falha ao renovar token C"
+            exit 1
+          fi
+
+          echo "$NEW_TOKEN" | gh secret set ACCOUNT_C_LONG_LIVED_TOKEN --repo "$GITHUB_REPOSITORY"
+          echo "✅ Conta B renovada"
+
+      - name: Refresh Account D
+        if: ${{ always() }}
+        env:
+          LONG_LIVED_TOKEN: ${{ secrets.ACCOUNT_D_LONG_LIVED_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -z "$LONG_LIVED_TOKEN" ]; then
+            echo "⏭️  Conta B nao configurada, pulando"
+            exit 0
+          fi
+
+          echo "🔄 Renovando token da conta D..."
+          RESPONSE=$(curl -s "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=$LONG_LIVED_TOKEN")
+
+          NEW_TOKEN=$(echo "$RESPONSE" | node -e "
+            let d='';
+            process.stdin.on('data',c=>d+=c);
+            process.stdin.on('end',()=>{
+              const j=JSON.parse(d);
+              if(j.error){console.error('ERRO:',j.error.message);process.exit(1)}
+              console.error('Novo token expira em', Math.round(j.expires_in/86400), 'dias');
+              console.log(j.access_token)
+            })
+          ")
+
+          if [ -z "$NEW_TOKEN" ]; then
+            echo "❌ Falha ao renovar token D"
+            exit 1
+          fi
+
+          echo "$NEW_TOKEN" | gh secret set ACCOUNT_D_LONG_LIVED_TOKEN --repo "$GITHUB_REPOSITORY"
+          echo "✅ Conta B renovada"

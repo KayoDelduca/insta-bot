@@ -17,7 +17,7 @@ const ENV_PATH = resolve(process.cwd(), '.env');
 
 const accountKey = (process.argv[2] || '').toUpperCase();
 if (!accountKey || !['A', 'B', 'C', 'D', 'E'].includes(accountKey)) {
-  console.log('Uso: node src/auth.js <a|b>');
+  console.log('Uso: node src/auth.js <a|b|c|d>');
   console.log('  Exemplo: node src/auth.js a   (autoriza conta A)');
   process.exit(1);
 }

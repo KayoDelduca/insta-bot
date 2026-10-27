@@ -36,10 +36,19 @@ git add calendar.json && git commit -m "semana X" && git push
 
 `ACCOUNT_A_LONG_LIVED_TOKEN`, `ACCOUNT_A_INSTAGRAM_USER_ID`,
 `ACCOUNT_B_LONG_LIVED_TOKEN`, `ACCOUNT_B_INSTAGRAM_USER_ID`,
+`ACCOUNT_C_…` / `ACCOUNT_D_…` (opcionais — contas backup, veja abaixo),
 `CLOUDINARY_CLOUD_NAME`, `CLOUDINARY_API_KEY`, `CLOUDINARY_API_SECRET`,
 `GH_PAT` (fine-grained token com *Secrets: Read and write* — obrigatório para a renovação automática).
 
 Em Settings → Actions → General, marque **Read and write permissions**.
+
+## Contas backup (C e D)
+
+C espelha A e D espelha B: mesmo vídeo, mesma legenda, mesmo horário. Não precisa
+mexer no calendar.json — o bot copia sozinho os posts futuros da origem assim que
+os secrets `ACCOUNT_C_LONG_LIVED_TOKEN` / `ACCOUNT_C_INSTAGRAM_USER_ID` (ou D)
+existirem no GitHub. Para autorizar: `node src/auth.js c` / `node src/auth.js d`.
+O mapeamento fica em `MIRRORS` no `src/accounts.js`.
 
 ## Horários (America/Sao_Paulo)
 
