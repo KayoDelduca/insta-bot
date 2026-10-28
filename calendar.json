@@ -933,8 +933,13 @@
       "type": "reel",
       "caption": "Sua versão mais forte começa hoje 🔥\n\n✨ Disponível em veraneiafit.com\n\n#modafitness #roupafitness #legging #academia #treino",
       "media": "content-a/reel-27.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792168/cliente-a/a-d5-27.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792168/cliente-a/a-d5-27.mp4",
+      "posted": true,
+      "posted_at": "2026-10-28T18:01:06.303Z",
+      "instagram_id": "17953103790295978",
+      "story_id": "17954994006291713",
+      "story_posted_at": "2026-10-28T18:01:36.795Z"
     },
     {
       "id": "b-d6-33",
@@ -945,7 +950,11 @@
       "caption": "Cada peça feita com carinho 🧵💖\n\n#modamodesta #vestido #estilo #modaevangelica #lookdodia",
       "media": "content-b/reel-33.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d6-33.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-28T18:02:16.010Z",
+      "instagram_id": "18504452446098585",
+      "story_error": "Processamento falhou: \"ERROR\""
     },
     {
       "id": "a-d5-28",
