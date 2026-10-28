@@ -964,8 +964,13 @@
       "type": "reel",
       "caption": "Conforto do primeiro ao último minuto ⏱️\n\n📦 Enviamos para todo o Brasil: veraneiafit.com\n\n#modafitness #conjuntofitness #fitnessgirl #treinoemcasa #lookfitness",
       "media": "content-a/reel-28.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792171/cliente-a/a-d5-28.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792171/cliente-a/a-d5-28.mp4",
+      "posted": true,
+      "posted_at": "2026-10-28T20:31:00.959Z",
+      "instagram_id": "18118924426777484",
+      "story_id": "18113476670150335",
+      "story_posted_at": "2026-10-28T20:31:31.429Z"
     },
     {
       "id": "b-d6-34",
@@ -976,7 +981,12 @@
       "caption": "Caimento que valoriza, modéstia que inspira 👗\n\n#modamodesta #vestidolongo #modafeminina #elegancia #look",
       "media": "content-b/reel-34.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d6-34.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-28T20:32:02.421Z",
+      "instagram_id": "18453243691135334",
+      "story_id": "17944707945363633",
+      "story_posted_at": "2026-10-28T20:32:37.038Z"
     },
     {
       "id": "a-d5-29",
