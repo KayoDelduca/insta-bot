@@ -869,8 +869,13 @@
       "type": "reel",
       "caption": "Estilo também é constância 🔁\n\n🛍️ Compre em veraneiafit.com\n\n#lookdeacademia #modafitness #treinofeminino #corrida #yoga",
       "media": "content-a/reel-25.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792164/cliente-a/a-d5-25.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792164/cliente-a/a-d5-25.mp4",
+      "posted": true,
+      "posted_at": "2026-10-28T13:00:54.103Z",
+      "instagram_id": "18135412778502559",
+      "story_id": "18087426140312252",
+      "story_posted_at": "2026-10-28T13:01:29.413Z"
     },
     {
       "id": "b-d6-31",
@@ -881,7 +886,12 @@
       "caption": "Tradição com um toque moderno ✨\n\n#modamodesta #vestidos #modaevangelica #lookdodia #elegancia",
       "media": "content-b/reel-31.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d6-31.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-28T13:02:01.231Z",
+      "instagram_id": "17932624464163368",
+      "story_id": "18001117541979388",
+      "story_posted_at": "2026-10-28T13:02:31.572Z"
     },
     {
       "id": "a-d5-26",
