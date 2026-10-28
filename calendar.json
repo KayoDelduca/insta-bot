@@ -901,8 +901,13 @@
       "type": "reel",
       "caption": "Feito pra acompanhar sua evolução 📈\n\n👉 Garanta o seu em veraneiafit.com\n\n#modafitness #fitnessbrasil #roupafitness #shape #veraneiafit",
       "media": "content-a/reel-26.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792165/cliente-a/a-d5-26.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792165/cliente-a/a-d5-26.mp4",
+      "posted": true,
+      "posted_at": "2026-10-28T15:30:52.254Z",
+      "instagram_id": "18132184141820282",
+      "story_id": "17884453272628268",
+      "story_posted_at": "2026-10-28T15:31:22.751Z"
     },
     {
       "id": "b-d6-32",
@@ -913,7 +918,12 @@
       "caption": "Para quem gosta de se vestir com delicadeza 🌸\n\n#modamodesta #vestidos #lookdodia #modafeminina #vestidoevangelico",
       "media": "content-b/reel-32.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d6-32.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-28T15:31:49.758Z",
+      "instagram_id": "18038409107889774",
+      "story_id": "18118535857799356",
+      "story_posted_at": "2026-10-28T15:32:19.957Z"
     },
     {
       "id": "a-d5-27",
