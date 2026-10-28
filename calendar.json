@@ -837,8 +837,13 @@
       "type": "reel",
       "caption": "Sem marcar, sem apertar, sem desculpa pra faltar 😅💪\n\n💳 Confira em veraneiafit.com\n\n#roupadeacademia #modafitness #crossfit #motivacao #fitness",
       "media": "content-a/reel-24.mp4",
-      "status": "pending",
-      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792162/cliente-a/a-d4-24.mp4"
+      "status": "published",
+      "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/v1792792162/cliente-a/a-d4-24.mp4",
+      "posted": true,
+      "posted_at": "2026-10-28T01:31:05.149Z",
+      "instagram_id": "18172340206460075",
+      "story_id": "18116157593028707",
+      "story_posted_at": "2026-10-28T01:31:42.960Z"
     },
     {
       "id": "b-d5-30",
@@ -849,7 +854,12 @@
       "caption": "Conforto também é elegância 🤍👗\n\n#modamodesta #vestidos #vestidoevangelico #moda #lookdodia",
       "media": "content-b/reel-30.mp4",
       "media_url": "https://res.cloudinary.com/o110jmpz/video/upload/cliente-b/b-d5-30.mp4",
-      "status": "pending"
+      "status": "published",
+      "posted": true,
+      "posted_at": "2026-10-28T01:32:06.819Z",
+      "instagram_id": "18139158064630737",
+      "story_id": "18125274646930446",
+      "story_posted_at": "2026-10-28T01:32:34.263Z"
     },
     {
       "id": "a-d5-25",
