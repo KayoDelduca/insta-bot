@@ -1,0 +1,32 @@
+name: Stories diarios (Mulher Graciosa)
+
+on:
+  schedule:
+    - cron: '0 12 * * *'   # 09:00 BRT
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Simular sem publicar (true/false)'
+        required: false
+        default: 'false'
+
+concurrency:
+  group: stories-diarios
+  cancel-in-progress: false
+
+jobs:
+  stories:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm ci || npm install
+      - name: Publicar stories
+        env:
+          ACCOUNT_B_LONG_LIVED_TOKEN: ${{ secrets.ACCOUNT_B_LONG_LIVED_TOKEN }}
+          ACCOUNT_B_INSTAGRAM_USER_ID: ${{ secrets.ACCOUNT_B_INSTAGRAM_USER_ID }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: node src/stories-diarios.js
