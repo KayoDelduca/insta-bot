@@ -13,7 +13,6 @@ const STORIES = [
   'https://res.cloudinary.com/o110jmpz/image/upload/v1793803636/cliente-b/feedbacks/fb-01-este-ou-esse.jpg',
   'https://res.cloudinary.com/o110jmpz/image/upload/v1793803637/cliente-b/feedbacks/fb-02-ocasiao.jpg',
   'https://res.cloudinary.com/o110jmpz/image/upload/v1793803638/cliente-b/feedbacks/fb-03-nota.jpg',
-  'https://res.cloudinary.com/o110jmpz/image/upload/v1793803638/cliente-b/feedbacks/fb-04-versiculo.jpg',
   'https://res.cloudinary.com/o110jmpz/image/upload/v1793803639/cliente-b/feedbacks/fb-05-cores.jpg',
 ];
 const PAUSA = 25000;
