@@ -1,8 +1,9 @@
 name: Stories diarios (Mulher Graciosa)
 
 on:
-  schedule:
-    - cron: '0 12 * * *'   # 09:00 BRT
+  # Desativado em 2026-11-08 a pedido. Para reativar, remova o # das duas linhas abaixo.
+  # schedule:
+  #   - cron: '0 12 * * *'   # 09:00 BRT
   workflow_dispatch:
     inputs:
       dry_run:
